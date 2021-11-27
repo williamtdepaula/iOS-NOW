@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660CD6442744814A008DDA31 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CD6432744814A008DDA31 /* MovieCell.swift */; };
+		660CD646274486C2008DDA31 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CD645274486C2008DDA31 /* Response.swift */; };
+		660CD648274487F6008DDA31 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CD647274487F6008DDA31 /* Page.swift */; };
+		660CD64A274488B9008DDA31 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CD649274488B9008DDA31 /* Carousel.swift */; };
+		660CD64C27448B94008DDA31 /* ItemCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CD64B27448B94008DDA31 /* ItemCarousel.swift */; };
+		666C5A5D2751650D0013AEBE /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C5A5C2751650D0013AEBE /* UIStackView+Extension.swift */; };
+		668A5D90274F0D5B008EF0A9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668A5D8F274F0D5B008EF0A9 /* HomeViewController.swift */; };
+		668A5D92274F1477008EF0A9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668A5D91274F1477008EF0A9 /* HomeViewModel.swift */; };
+		6697FA012752DB6000101974 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6697FA002752DB6000101974 /* Banner.swift */; };
+		6697FA032752DB8F00101974 /* BannerControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6697FA022752DB8F00101974 /* BannerControll.swift */; };
+		66D7113E2742CCC1002F06A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D7113D2742CCC1002F06A1 /* AppDelegate.swift */; };
+		66D711402742CCC1002F06A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D7113F2742CCC1002F06A1 /* SceneDelegate.swift */; };
+		66D711472742CCC3002F06A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D711462742CCC3002F06A1 /* Assets.xcassets */; };
+		66D7114A2742CCC3002F06A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D711482742CCC3002F06A1 /* LaunchScreen.storyboard */; };
+		66D7115C2742D2CB002F06A1 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D7115B2742D2CB002F06A1 /* UIView+Extensions.swift */; };
+		66D7115E2742D2FC002F06A1 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D7115D2742D2FC002F06A1 /* CodeView.swift */; };
+		66D711642742D73E002F06A1 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D711632742D73E002F06A1 /* ChannelCell.swift */; };
+		66D711682742E347002F06A1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D711672742E347002F06A1 /* UIColor+Extension.swift */; };
+		66DDFC8327471A9E00DF6286 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DDFC8227471A9E00DF6286 /* Request.swift */; };
+		66F7AC78274FCB330057B800 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7AC77274FCB330057B800 /* SectionHeader.swift */; };
+		66F7AC7D2750597D0057B800 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7AC7C2750597D0057B800 /* BannerCell.swift */; };
+		D8A73040D78E5C97E85C9882 /* Pods_NowOnlineReplic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4209AF32211C92F39ACCE6AD /* Pods_NowOnlineReplic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22DE408617D8276E420EC9EE /* Pods-NowOnlineReplic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NowOnlineReplic.debug.xcconfig"; path = "Target Support Files/Pods-NowOnlineReplic/Pods-NowOnlineReplic.debug.xcconfig"; sourceTree = "<group>"; };
+		29AE8037AC7547FAE5D01B93 /* Pods-NowOnlineReplic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NowOnlineReplic.release.xcconfig"; path = "Target Support Files/Pods-NowOnlineReplic/Pods-NowOnlineReplic.release.xcconfig"; sourceTree = "<group>"; };
+		4209AF32211C92F39ACCE6AD /* Pods_NowOnlineReplic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NowOnlineReplic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		660CD6432744814A008DDA31 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		660CD645274486C2008DDA31 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		660CD647274487F6008DDA31 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		660CD649274488B9008DDA31 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		660CD64B27448B94008DDA31 /* ItemCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCarousel.swift; sourceTree = "<group>"; };
+		666C5A5C2751650D0013AEBE /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		668A5D8F274F0D5B008EF0A9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		668A5D91274F1477008EF0A9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6697FA002752DB6000101974 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Banner.swift; path = ../../../../../../.Trash/Banner.swift; sourceTree = "<group>"; };
+		6697FA022752DB8F00101974 /* BannerControll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BannerControll.swift; path = ../../../../../../.Trash/BannerControll.swift; sourceTree = "<group>"; };
+		66D7113A2742CCC1002F06A1 /* NowOnlineReplic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NowOnlineReplic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D7113D2742CCC1002F06A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66D7113F2742CCC1002F06A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66D711462742CCC3002F06A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66D711492742CCC3002F06A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66D7114B2742CCC3002F06A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D7115B2742D2CB002F06A1 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		66D7115D2742D2FC002F06A1 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		66D711632742D73E002F06A1 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		66D711672742E347002F06A1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		66DDFC8227471A9E00DF6286 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		66F7AC77274FCB330057B800 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		66F7AC7C2750597D0057B800 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66D711372742CCC1002F06A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A73040D78E5C97E85C9882 /* Pods_NowOnlineReplic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CFA9522574989A211831590 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22DE408617D8276E420EC9EE /* Pods-NowOnlineReplic.debug.xcconfig */,
+				29AE8037AC7547FAE5D01B93 /* Pods-NowOnlineReplic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		660CD63E2744755A008DDA31 /* MovieCell */ = {
+			isa = PBXGroup;
+			children = (
+				660CD6432744814A008DDA31 /* MovieCell.swift */,
+			);
+			path = MovieCell;
+			sourceTree = "<group>";
+		};
+		668A5D8E274F0D3D008EF0A9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				668A5D8F274F0D5B008EF0A9 /* HomeViewController.swift */,
+				668A5D91274F1477008EF0A9 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		66D711312742CCC1002F06A1 = {
+			isa = PBXGroup;
+			children = (
+				66D7113C2742CCC1002F06A1 /* NowOnlineReplic */,
+				66D7113B2742CCC1002F06A1 /* Products */,
+				1CFA9522574989A211831590 /* Pods */,
+				9ADD06DDCE74D10F4B6BA2BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66D7113B2742CCC1002F06A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66D7113A2742CCC1002F06A1 /* NowOnlineReplic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66D7113C2742CCC1002F06A1 /* NowOnlineReplic */ = {
+			isa = PBXGroup;
+			children = (
+				66D7115A2742D2B5002F06A1 /* Extensions */,
+				66D711552742D0D6002F06A1 /* Models */,
+				66D711542742CEA9002F06A1 /* Services */,
+				66D711532742CE90002F06A1 /* Components */,
+				66D711522742CE87002F06A1 /* Views */,
+				66D711512742CE80002F06A1 /* Resources */,
+				66D7114B2742CCC3002F06A1 /* Info.plist */,
+			);
+			path = NowOnlineReplic;
+			sourceTree = "<group>";
+		};
+		66D711512742CE80002F06A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66D711482742CCC3002F06A1 /* LaunchScreen.storyboard */,
+				66D711462742CCC3002F06A1 /* Assets.xcassets */,
+				66D7113D2742CCC1002F06A1 /* AppDelegate.swift */,
+				66D7113F2742CCC1002F06A1 /* SceneDelegate.swift */,
+				66D7115D2742D2FC002F06A1 /* CodeView.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		66D711522742CE87002F06A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				668A5D8E274F0D3D008EF0A9 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		66D711532742CE90002F06A1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				66F7AC79274FCB380057B800 /* SectionHeader */,
+				660CD63E2744755A008DDA31 /* MovieCell */,
+				66D711622742D721002F06A1 /* ChannelsCell */,
+				66D711612742D70E002F06A1 /* Banner */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		66D711542742CEA9002F06A1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				66DDFC8227471A9E00DF6286 /* Request.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		66D711552742D0D6002F06A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				660CD645274486C2008DDA31 /* Response.swift */,
+				660CD647274487F6008DDA31 /* Page.swift */,
+				660CD649274488B9008DDA31 /* Carousel.swift */,
+				660CD64B27448B94008DDA31 /* ItemCarousel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		66D7115A2742D2B5002F06A1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				66D7115B2742D2CB002F06A1 /* UIView+Extensions.swift */,
+				66D711672742E347002F06A1 /* UIColor+Extension.swift */,
+				666C5A5C2751650D0013AEBE /* UIStackView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		66D711612742D70E002F06A1 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				6697FA002752DB6000101974 /* Banner.swift */,
+				66F7AC7C2750597D0057B800 /* BannerCell.swift */,
+				6697FA022752DB8F00101974 /* BannerControll.swift */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		66D711622742D721002F06A1 /* ChannelsCell */ = {
+			isa = PBXGroup;
+			children = (
+				66D711632742D73E002F06A1 /* ChannelCell.swift */,
+			);
+			path = ChannelsCell;
+			sourceTree = "<group>";
+		};
+		66F7AC79274FCB380057B800 /* SectionHeader */ = {
+			isa = PBXGroup;
+			children = (
+				66F7AC77274FCB330057B800 /* SectionHeader.swift */,
+			);
+			path = SectionHeader;
+			sourceTree = "<group>";
+		};
+		9ADD06DDCE74D10F4B6BA2BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4209AF32211C92F39ACCE6AD /* Pods_NowOnlineReplic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66D711392742CCC1002F06A1 /* NowOnlineReplic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D7114E2742CCC3002F06A1 /* Build configuration list for PBXNativeTarget "NowOnlineReplic" */;
+			buildPhases = (
+				8D28B2ABF8CCFE69B42C8753 /* [CP] Check Pods Manifest.lock */,
+				66D711362742CCC1002F06A1 /* Sources */,
+				66D711372742CCC1002F06A1 /* Frameworks */,
+				66D711382742CCC1002F06A1 /* Resources */,
+				D05CD8F419B08D1A6A6454D3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NowOnlineReplic;
+			productName = NowOnlineReplic;
+			productReference = 66D7113A2742CCC1002F06A1 /* NowOnlineReplic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66D711322742CCC1002F06A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					66D711392742CCC1002F06A1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 66D711352742CCC1002F06A1 /* Build configuration list for PBXProject "NowOnlineReplic" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66D711312742CCC1002F06A1;
+			productRefGroup = 66D7113B2742CCC1002F06A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66D711392742CCC1002F06A1 /* NowOnlineReplic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66D711382742CCC1002F06A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D7114A2742CCC3002F06A1 /* LaunchScreen.storyboard in Resources */,
+				66D711472742CCC3002F06A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D28B2ABF8CCFE69B42C8753 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NowOnlineReplic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D05CD8F419B08D1A6A6454D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NowOnlineReplic/Pods-NowOnlineReplic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NowOnlineReplic/Pods-NowOnlineReplic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NowOnlineReplic/Pods-NowOnlineReplic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66D711362742CCC1002F06A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6697FA032752DB8F00101974 /* BannerControll.swift in Sources */,
+				660CD6442744814A008DDA31 /* MovieCell.swift in Sources */,
+				666C5A5D2751650D0013AEBE /* UIStackView+Extension.swift in Sources */,
+				66F7AC78274FCB330057B800 /* SectionHeader.swift in Sources */,
+				668A5D92274F1477008EF0A9 /* HomeViewModel.swift in Sources */,
+				660CD648274487F6008DDA31 /* Page.swift in Sources */,
+				66DDFC8327471A9E00DF6286 /* Request.swift in Sources */,
+				66F7AC7D2750597D0057B800 /* BannerCell.swift in Sources */,
+				66D711642742D73E002F06A1 /* ChannelCell.swift in Sources */,
+				668A5D90274F0D5B008EF0A9 /* HomeViewController.swift in Sources */,
+				66D711682742E347002F06A1 /* UIColor+Extension.swift in Sources */,
+				660CD64C27448B94008DDA31 /* ItemCarousel.swift in Sources */,
+				6697FA012752DB6000101974 /* Banner.swift in Sources */,
+				660CD64A274488B9008DDA31 /* Carousel.swift in Sources */,
+				660CD646274486C2008DDA31 /* Response.swift in Sources */,
+				66D7113E2742CCC1002F06A1 /* AppDelegate.swift in Sources */,
+				66D7115C2742D2CB002F06A1 /* UIView+Extensions.swift in Sources */,
+				66D711402742CCC1002F06A1 /* SceneDelegate.swift in Sources */,
+				66D7115E2742D2FC002F06A1 /* CodeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66D711482742CCC3002F06A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D711492742CCC3002F06A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66D7114C2742CCC3002F06A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66D7114D2742CCC3002F06A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66D7114F2742CCC3002F06A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22DE408617D8276E420EC9EE /* Pods-NowOnlineReplic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ2ZJ6S67T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NowOnlineReplic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamtdepaula.NowOnlineReplic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66D711502742CCC3002F06A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29AE8037AC7547FAE5D01B93 /* Pods-NowOnlineReplic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ2ZJ6S67T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NowOnlineReplic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamtdepaula.NowOnlineReplic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66D711352742CCC1002F06A1 /* Build configuration list for PBXProject "NowOnlineReplic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D7114C2742CCC3002F06A1 /* Debug */,
+				66D7114D2742CCC3002F06A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D7114E2742CCC3002F06A1 /* Build configuration list for PBXNativeTarget "NowOnlineReplic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D7114F2742CCC3002F06A1 /* Debug */,
+				66D711502742CCC3002F06A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66D711322742CCC1002F06A1 /* Project object */;
+}
