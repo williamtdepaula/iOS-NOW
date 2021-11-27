@@ -29,7 +29,7 @@ class Request {
     }
     
     public func getHome(completion: @escaping (Result<Response<Page>, Error>) -> Void){
-        createRequest(url: "https://www.nowonline.com.br/avsclient/1.1/categories/home?channel=PCTV&tvVas=Y", type: .GET) { url in
+        createRequest(url: "API", type: .GET) { url in
             
             let task = URLSession.shared.dataTask(with: url) { response, _, error in
                 guard let data = response, error == nil else {
