@@ -5,6 +5,6 @@
 
 ![](preview.gif)
 
-## 🤓 Author(s)
+## 💻 Author(s)
 
 **William Tristão de Paula**  [Profile](https://github.com/williamtdepaula "GitHub Profile")
